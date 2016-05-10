@@ -143,19 +143,41 @@ H	ᠾ	1
 L	ᡀ	1
 C	ᡁ	1
 Z	ᡂ	1
+### MVS
 _	᠎	1
+### Mongolian Space
 -	 	1
+### FVS1
 '	᠋	1
+### FVS2
 "	᠌	1
+### FVS3
 `	᠍	1
+### NIRUGU
 &	᠆	1
+### ELLIPSIS
 \	᠁	1
+### COMMA
 ,	᠂	1
+### FULL STOP
 .	᠃	1
+### COLON
 :	᠄	1
+### FOUR DOTS
 /	᠅	1
+### digit
 !	!	1
 ?	?	1
+0	᠐	1
+1	᠑	1
+2	᠒	1
+3	᠓	1
+4	᠔	1
+5	᠕	1
+6	᠖	1
+7	᠗	1
+8	᠘	1
+9	᠙	1
 END_TABlE
 
 ### Since some input methods use different table for every character to make

@@ -4,7 +4,7 @@
 
 ### 复制输入法文件夹到本地计算机
 
-`git clone https://github.com/hfl/traditional-mongolian.git`
+    git clone https://github.com/hfl/traditional-mongolian.git
 
 然后
 

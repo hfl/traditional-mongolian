@@ -52,7 +52,7 @@ AUTHOR = Huang Feilong
 STATUS_PROMPT = Mipa
 
 ### Valid input chars.
-VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,.?!1234567890()'":;#/`_-
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,.?!1234567890()'":;#/`_-\&
 
 ### Layout
 LAYOUT = us
@@ -143,13 +143,13 @@ H	ᠾ	1
 L	ᡀ	1
 C	ᡁ	1
 Z	ᡂ	1
--	᠎	1
-_	 	1
+_	᠎	1
+-	 	1
 '	᠋	1
 "	᠌	1
 `	᠍	1
-I	᠆	1
-Q	᠁	1
+&	᠆	1
+\	᠁	1
 ,	᠂	1
 .	᠃	1
 :	᠄	1

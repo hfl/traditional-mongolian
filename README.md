@@ -4,26 +4,26 @@
 
 ### 复制输入法文件
 
-git clone https://github.com/hfl/traditional-mongolian.git
+`git clone https://github.com/hfl/traditional-mongolian.git`
 
 然后
 
-cd traditional-mongolian
+`cd traditional-mongolian`
 
 然后
 
 ### 导入输入法码表
 
-sudo ibus-table-createdb -n /usr/share/ibus-table/tables/Traditional_Mongolian.db -s lib/Traditional-Mongolian.txt
+`sudo ibus-table-createdb -n /usr/share/ibus-table/tables/Traditional_Mongolian.db -s lib/Traditional-Mongolian.txt
 
 ibus-daemon -drx
 
-ibus-setup
+ibus-setup`
 
 
 ### 输入法图标
 
-sudo cp lib/traditional-mongolian.png /usr/share/ibus-table/icons
+`sudo cp lib/traditional-mongolian.svg /usr/share/ibus-table/icons`
 
 ### 添加输入法到系统托盘中
 

@@ -21,14 +21,14 @@ UUID = fa7fd40e-38d1-4db2-8946-bbaa74d1b0ee
 ### For example the last modified date of this file.
 ### This number must be less than 2^32.
 ### Just make your table version-able
-SERIAL_NUMBER = 20160510
+SERIAL_NUMBER = 20160519
 
 ### ICON can be any format as long as your pygtk can recognized
 ### the most widely ones are "png" and "svg", letter one is recommended
 ICON = traditional-mongolian.svg
 
 ### The default name of this table, this is needed
-NAME = Traditiona_Mongolian
+NAME = Traditional_Mongolian
 
 ### The local names of this table, this is optional
 ### NAME.zh_CN = 形码

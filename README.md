@@ -16,7 +16,7 @@
 
     sudo ibus-table-createdb -n /usr/share/ibus-table/tables/Traditional_Mongolian.db -s lib/Traditional-Mongolian.txt
     ibus-daemon -drx
-    ibus-setup`
+    ibus-setup
 
 
 ### 复制输入法图标

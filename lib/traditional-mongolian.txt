@@ -1,9 +1,4 @@
-### File header must not be modified
-### This file must be encoded into UTF-8.
-### This table under LGPL
-### comments start with ### not single #
-### Derive from the format of SCIM Table, so you can modify the table from
-### scim-tables' table
+### Traditional Mongolian Table of Ibus.
 SCIM_Generic_Table_Phrase_Library_TEXT
 VERSION_1_0
 
@@ -21,19 +16,21 @@ UUID = fa7fd40e-38d1-4db2-8946-bbaa74d1b0ee
 ### For example the last modified date of this file.
 ### This number must be less than 2^32.
 ### Just make your table version-able
-SERIAL_NUMBER = 20160519
+SERIAL_NUMBER = 20180504
 
 ### ICON can be any format as long as your pygtk can recognized
 ### the most widely ones are "png" and "svg", letter one is recommended
 ICON = traditional-mongolian.svg
 
+SYMBOL = 蒙
+
 ### The default name of this table, this is needed
-NAME = Traditional_Mongolian
+NAME = traditional-mongolian
 
 ### The local names of this table, this is optional
-### NAME.zh_CN = 形码
-### NAME.zh_HK = 形碼
-### NAME.zh_TW = 形碼
+NAME.zh_CN = 传统蒙古文
+NAME.zh_HK = 传统蒙古文
+NAME.zh_TW = 传统蒙古文
 
 ### Description
 DESCRIPTION = Mongolian Unicode input engine table for IBus Table. Uses Traditional Mongolian keyboard layout.
@@ -45,11 +42,11 @@ DESCRIPTION = Mongolian Unicode input engine table for IBus Table. Uses Traditio
 LANGUAGES = mn_CN
 
 ### The author of this table
-AUTHOR = Huang Feilong
+AUTHOR = Huang Feilong <huangfeilong@gmail.com>
 
 ### Prompt string to be displayed in the status area, CN will be replaced by
 ### the gettext tools in runtime as 中.
-STATUS_PROMPT = Mipa
+STATUS_PROMPT = CN
 
 ### Valid input chars.
 VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,.?!1234567890()'":;#/`_-\&

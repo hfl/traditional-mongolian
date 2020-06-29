@@ -16,7 +16,7 @@ UUID = fa7fd40e-38d1-4db2-8946-bbaa74d1b0ee
 ### For example the last modified date of this file.
 ### This number must be less than 2^32.
 ### Just make your table version-able
-SERIAL_NUMBER = 20180504
+SERIAL_NUMBER = 20181008
 
 ### ICON can be any format as long as your pygtk can recognized
 ### the most widely ones are "png" and "svg", letter one is recommended
@@ -49,7 +49,7 @@ AUTHOR = Huang Feilong <huangfeilong@gmail.com>
 STATUS_PROMPT = CN
 
 ### Valid input chars.
-VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,.?!1234567890()'":;#/`_-\&
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzCEHKLNRWZ,.?!1234567890()'":;#/`_-\&*^
 
 ### Layout
 LAYOUT = us
@@ -142,7 +142,7 @@ C	ᡁ	1
 Z	ᡂ	1
 ### Mongolian Vowel Separator
 _	᠎	1
-### Mongolian Space
+### Mongolian Space NNBSP
 -	 	1
 ### Zero Width Joiner
 *	‍
@@ -154,6 +154,10 @@ _	᠎	1
 "	᠌	1
 ### FVS3
 `	᠍	1
+### Zero Width Non-joiner
+^	‌	1
+### Zero Width Joiner
+*	‍	1
 ### NIRUGU
 &	᠆	1
 ### ELLIPSIS

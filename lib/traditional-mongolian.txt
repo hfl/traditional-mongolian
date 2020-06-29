@@ -140,10 +140,14 @@ H	ᠾ	1
 L	ᡀ	1
 C	ᡁ	1
 Z	ᡂ	1
-### MVS
+### Mongolian Vowel Separator
 _	᠎	1
 ### Mongolian Space
 -	 	1
+### Zero Width Joiner
+*	‍
+### Zero Width Non Non-Joiner
+^	‌
 ### FVS1
 '	᠋	1
 ### FVS2
